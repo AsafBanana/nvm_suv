@@ -1,9 +1,9 @@
 # nvm_suv
-multi variate frailty survival 
-Based on this artical https://pubmed.ncbi.nlm.nih.gov/20707868/
+multi variate frailty survival \\
+Based on this artical https://pubmed.ncbi.nlm.nih.gov/20707868/ \\
 
-Perform survival analysis on N cluster M subject and K competing events.
-Each cluzer has Q covariates and a multivariate normal distribution frailty vector
+Perform survival analysis on N cluster M subject and K competing events. \\
+Each cluzer has Q covariates and a multivariate normal distribution frailty vector \\
 
 
 Main function is:
