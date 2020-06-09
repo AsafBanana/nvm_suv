@@ -1,5 +1,5 @@
 # nvm_suv
-multi variate frailty survival \\
+multi variate frailty survival \n
 Based on this artical https://pubmed.ncbi.nlm.nih.gov/20707868/ \\
 
 Perform survival analysis on N cluster M subject and K competing events. \\
