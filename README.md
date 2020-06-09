@@ -1,24 +1,20 @@
-# nvm_suv
-multi variate frailty survival 
+multivariate frailty for clustered survival data with competing risks
 
-Based on this artical https://pubmed.ncbi.nlm.nih.gov/20707868/ 
+Based on the following paper:  https://pubmed.ncbi.nlm.nih.gov/20707868/
 
-Perform survival analysis on N cluster M subject and K competing events. 
+Performs survival analysis based on N clusters M observations within each cluster and K competing events.
 
-Each cluzer has Q covariates and a multivariate normal distribution frailty vector 
+Each observation within each cluster is having Q covariates. 
 
+Each cluster is having a K-dimensional frailty vector from a multivariate normal distribution
 
-
-Main function is:
-sur_mvn(X,Z,delta)
-
+Main function is: sur_mvn(X,Z,delta)
 
 X[N,M] event times
 
 Z[N,Q] covarites. Must be a two dimensional array.
 
-delta[N,M,K] event witnesed 
-
+delta[N,M,K] observed events 
 
 Returns:
 
@@ -28,9 +24,4 @@ Var cov matrix of frailty
 
 Culmative hazared
 
-
-
-
-see nvm_example.R for basic usuage
-
-Cuda support also exist but currently not in master
+see nvm_example.R for basic usage
